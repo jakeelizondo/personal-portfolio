@@ -9,10 +9,10 @@ export default function () {
       <nav className={'header-links'}>
         <ul>
           <li>
-            <Link to={'/projects'}>Projects</Link>
+            <Link to={'/'}>Home </Link>
           </li>
           <li>
-            <Link to={'/'}>Home </Link>
+            <Link to={'/projects'}>Projects</Link>
           </li>
           <li>
             <Link to={'/about-me'}>About Me</Link>
