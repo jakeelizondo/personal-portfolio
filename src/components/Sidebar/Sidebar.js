@@ -1,26 +1,59 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { stack as Menu } from 'react-burger-menu';
+import { slide as Menu } from 'react-burger-menu';
 import './Sidebar.css';
 
-export default function () {
-  return (
-    <Menu className={'header-links'}>
-      <Link className={'menu-item'} to={'/'}>
-        Home{' '}
-      </Link>
+export default class Sidebar extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      menuOpen: false,
+    };
+  }
 
-      <Link className={'menu-item'} to={'/projects'}>
-        Projects
-      </Link>
+  handleStateChange(state) {
+    this.setState({ menuOpen: state.isOpen });
+  }
 
-      <Link className={'menu-item'} to={'/about-me'}>
-        About Me
-      </Link>
+  closeMenu() {
+    this.setState({ menuOpen: false });
+  }
 
-      <Link className={'menu-item'} to={'/contact'}>
-        Contact
-      </Link>
-    </Menu>
-  );
+  render() {
+    return (
+      <Menu
+        className={'header-links'}
+        isOpen={this.state.menuOpen}
+        onStateChange={(state) => this.handleStateChange(state)}
+      >
+        <Link className={'menu-item'} onClick={() => this.closeMenu()} to={'/'}>
+          Home{' '}
+        </Link>
+
+        <Link
+          className={'menu-item'}
+          onClick={() => this.closeMenu()}
+          to={'/projects'}
+        >
+          Projects
+        </Link>
+
+        <Link
+          className={'menu-item'}
+          onClick={() => this.closeMenu()}
+          to={'/about-me'}
+        >
+          About Me
+        </Link>
+
+        <Link
+          className={'menu-item'}
+          onClick={() => this.closeMenu()}
+          to={'/contact'}
+        >
+          Contact
+        </Link>
+      </Menu>
+    );
+  }
 }

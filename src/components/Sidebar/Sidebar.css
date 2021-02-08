@@ -155,7 +155,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
   /* Individual item */
   .bm-item {
     display: inline-block;
-
     color: #002447;
     font-size: 25px;
     margin-bottom: 10px;
@@ -165,7 +164,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   .bm-item:hover {
-    color: #c4e9ff;
-    transition-duration: 1s;
+    color: #93d7ff;
+    transition-duration: 0.5s;
   }
 }
