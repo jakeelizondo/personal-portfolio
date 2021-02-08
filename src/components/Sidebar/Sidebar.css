@@ -22,11 +22,12 @@
   .bm-cross-button {
     height: 24px;
     width: 24px;
+    margin-right: 10px;
   }
 
   /* Color/shape of close button cross */
   .bm-cross {
-    background: #bdc3c7;
+    background: #002447;
   }
 
   /*
@@ -40,7 +41,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   /* General sidebar styles */
   .bm-menu {
-    background: #373a47;
+    background: white;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
   }
@@ -70,7 +71,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   .bm-item {
     display: inline-block;
 
-    color: #d1d1d1;
+    color: #002447;
     margin-bottom: 10px;
     text-align: left;
     text-decoration: none;
@@ -86,10 +87,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
   /* Position and sizing of burger button */
   .bm-burger-button {
     position: fixed;
-    width: 36px;
-    height: 30px;
-    left: 36px;
-    top: 36px;
+    width: 30px;
+    height: 26px;
+    left: 10px;
+    top: 18px;
   }
 
   /* Color/shape of burger icon bars */
@@ -104,13 +105,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   /* Position and sizing of clickable cross button */
   .bm-cross-button {
-    height: 24px;
-    width: 24px;
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
   }
 
   /* Color/shape of close button cross */
   .bm-cross {
-    background: #bdc3c7;
+    background: #002447;
   }
 
   /*
@@ -124,7 +126,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   /* General sidebar styles */
   .bm-menu {
-    background: #373a47;
+    background: white;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
   }
@@ -154,7 +156,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
   .bm-item {
     display: inline-block;
 
-    color: #d1d1d1;
+    color: #002447;
+    font-size: 25px;
     margin-bottom: 10px;
     text-align: left;
     text-decoration: none;
@@ -162,6 +165,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   .bm-item:hover {
-    color: #ffffff;
+    color: #c4e9ff;
+    transition-duration: 1s;
   }
 }
