@@ -21,12 +21,15 @@
 
   /* intro section */
 
-  img {
-    display: none;
-  }
-
   .intro-section {
     padding: 20% 10% 0% 10%;
+    display: flex;
+    flex-flow: column;
+  }
+
+  img {
+    max-width: 50%;
+    border-radius: 5px;
   }
 
   .intro-content {
