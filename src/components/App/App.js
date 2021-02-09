@@ -11,13 +11,15 @@ import Sidebar from '../Sidebar/Sidebar';
 
 export default function App() {
   return (
-    <React.Fragment>
-      <Sidebar />
+    <div>
+      <div>
+        <Sidebar />
+      </div>
       <Route exact path="/" component={Homepage} />
       <Route exact path="/projects" component={Projects} />
       <Route exact path="/about-me" component={AboutMe} />
       <Route exact path="/contact" component={Contact} />
       <footer>Footer goes here</footer>
-    </React.Fragment>
+    </div>
   );
 }

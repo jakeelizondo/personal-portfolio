@@ -23,6 +23,7 @@ export default class Sidebar extends React.Component {
     return (
       <Menu
         className={'header-links'}
+        width={'50%'}
         isOpen={this.state.menuOpen}
         onStateChange={(state) => this.handleStateChange(state)}
       >
