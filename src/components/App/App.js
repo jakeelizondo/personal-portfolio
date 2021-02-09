@@ -6,6 +6,7 @@ import Projects from '../../routes/Projects/Projects';
 import AboutMe from '../../routes/AboutMe/AboutMe';
 import Contact from '../../routes/Contact/Contact';
 import Sidebar from '../Sidebar/Sidebar';
+import './App.css';
 
 // TODO Get sidebar reveal working properly or switch back to swipe
 
@@ -19,7 +20,7 @@ export default function App() {
       <Route exact path="/projects" component={Projects} />
       <Route exact path="/about-me" component={AboutMe} />
       <Route exact path="/contact" component={Contact} />
-      <footer>Footer goes here</footer>
+      <footer>Copyright Jake Elizondo 2021</footer>
     </div>
   );
 }
