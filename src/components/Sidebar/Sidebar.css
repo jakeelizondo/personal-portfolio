@@ -20,9 +20,11 @@
 
   /* Position and sizing of clickable cross button */
   .bm-cross-button {
-    height: 24px;
-    width: 24px;
-    margin-right: 15px;
+    position: fixed;
+    width: 20px;
+    height: 16px;
+    left: 10px;
+    top: 18px;
   }
 
   /* Color/shape of close button cross */
@@ -90,8 +92,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
     position: fixed;
     width: 30px;
     height: 26px;
-    left: 10px;
-    top: 18px;
+    left: 20px;
+    top: 20px;
   }
 
   /* Color/shape of burger icon bars */
@@ -106,14 +108,18 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   /* Position and sizing of clickable cross button */
   .bm-cross-button {
-    height: 30px;
-    width: 30px;
-    margin-right: 15px;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    min-height: 30px;
+    min-width: 5px;
   }
 
   /* Color/shape of close button cross */
   .bm-cross {
     background: #002447;
+    min-height: 30px;
+    min-width: 5px;
   }
 
   /*

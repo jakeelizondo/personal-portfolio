@@ -4,25 +4,6 @@ import './AboutMe.css';
 export default function () {
   return (
     <React.Fragment>
-      <section className="intro-section">
-        <img src="" alt="jake-elizondo-developer-pic" />
-        <div className="intro-content">
-          <h2 className="dark-text" id="intro">
-            Hi, my name is Jake. Great to meet you!
-          </h2>
-          <p className="dark-text">
-            I am a digital-marketer-turned-software-developer based out of
-            Raleigh, North Carolina. My goal is to build intuitive tools that
-            solve problems, designed with the end-user experience at the
-            forefront. My digital marketing experience has made me passionate
-            about designing websites that provide seamless experiences across
-            devices and operating systems. Someone with an older model phone and
-            3G connection deserves a positive user experience just as much as
-            those with the newest iPhone and 5G access.
-          </p>
-        </div>
-      </section>
-
       <section className="about-section">
         <div className="about-group">
           <div className="about-item">
