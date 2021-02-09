@@ -7,10 +7,10 @@ export default function () {
     <React.Fragment>
       <section className={'headline'}>
         <div>
-          <h1>Hi, I'm Jake.</h1>
+          <h1>Hey, I'm Jake.</h1>
         </div>
         <div>
-          <h2>I'm a software developer living in Palo Alto, CA.</h2>
+          <h2>Let's build something together.</h2>
         </div>
       </section>
       <section className="intro-section">
