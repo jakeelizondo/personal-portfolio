@@ -1,6 +1,7 @@
 import React from 'react';
 import './Homepage.css';
 import profPic from '../../../src/images/profile-pic.jpg';
+import Projects from '../Projects/Projects';
 
 export default function () {
   return (
@@ -13,6 +14,7 @@ export default function () {
           <h2>Let's build something together.</h2>
         </div>
       </section>
+      <Projects />
       <section className="intro-section">
         <img src={profPic} alt="jake-elizondo-developer-pic" />
         <div className="intro-content">
