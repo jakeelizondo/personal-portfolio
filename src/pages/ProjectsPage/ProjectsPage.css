@@ -1,0 +1,20 @@
+.project-page-project {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #2b3a67;
+}
+
+.project-page-header {
+  text-align: center;
+  padding: 20px;
+  color: #2b3a67;
+  font-size: 40px;
+}
+
+.projects-page-projects-section {
+  margin-bottom: 400px;
+}

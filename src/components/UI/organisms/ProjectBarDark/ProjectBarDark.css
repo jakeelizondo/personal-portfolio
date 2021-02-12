@@ -1,0 +1,31 @@
+/* projects section */
+
+.projects-section-dark {
+  padding: 5% 0%;
+  background-color: #2b3a67;
+}
+
+.project-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project-light {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+.project-header-light {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 40px;
+}

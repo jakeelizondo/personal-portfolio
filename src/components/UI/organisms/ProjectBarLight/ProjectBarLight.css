@@ -1,8 +1,7 @@
 /* projects section */
 
-.projects-section {
+.projects-section-light {
   padding: 5% 0%;
-  background-color: #2b3a67;
 }
 
 .project-group {
@@ -13,19 +12,19 @@
   flex-wrap: wrap;
 }
 
-.project {
+.project-dark {
   margin-top: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
-  color: white;
+  color: #2b3a67;
 }
 
-.project-header {
+.project-header-dark {
   text-align: center;
   padding: 20px;
-  color: white;
+  color: #2b3a67;
   font-size: 40px;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Homepage.css';
 import profPic from '../../assets/images/profile-pic.jpg';
-import ProjectBar from '../../components/UI/organisms/ProjectBar/ProjectBar';
+import ProjectBar from '../../components/UI/organisms/ProjectBarDark/ProjectBarDark';
 
 export default function () {
   return (
@@ -26,7 +26,10 @@ export default function () {
           </p>
         </div>
       </section>
-      <ProjectBar />
+      <ProjectBar
+        projectCardStyle={'project'}
+        headingStyle={'project-header'}
+      />
     </React.Fragment>
   );
 }
