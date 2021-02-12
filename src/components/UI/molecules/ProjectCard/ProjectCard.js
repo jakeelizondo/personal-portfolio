@@ -5,7 +5,7 @@ import './ProjectCard.css';
 
 export default function ProjectCard(props) {
   return (
-    <div className="project">
+    <div className={props.styleClass}>
       <ProjectIcon projectName={props.projectName} />
       <ButtonExpanding text={'View'} />
     </div>

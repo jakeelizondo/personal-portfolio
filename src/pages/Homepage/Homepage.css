@@ -1,6 +1,6 @@
 @media all and (max-width: 800px) {
   .headline {
-    padding: 20% 10% 0% 10%;
+    padding: 15% 10% 0% 10%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -8,6 +8,7 @@
 
   .headline h1 {
     font-size: 35px;
+    letter-spacing: -2px;
   }
 
   .headline h2 {
@@ -22,18 +23,18 @@
   /* intro section */
 
   .intro-section {
-    padding: 20% 10% 0% 10%;
+    padding: 10%;
     display: flex;
     flex-flow: column;
   }
 
   img {
-    max-width: 50%;
+    max-width: 30%;
     border-radius: 5px;
   }
 
   .intro-content {
-    max-width: 90%;
+    max-width: 98%;
     padding-top: 20px;
   }
 }

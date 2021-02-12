@@ -6,7 +6,7 @@ import ProjectBar from '../../components/UI/organisms/ProjectBar/ProjectBar';
 export default function () {
   return (
     <React.Fragment>
-      <section className={'headline'}>
+      <section className={['headline', 'dark-text'].join(' ')}>
         <div>
           <h1>Hey, I'm Jake.</h1>
         </div>

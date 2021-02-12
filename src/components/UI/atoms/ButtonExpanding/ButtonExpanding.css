@@ -10,7 +10,6 @@
 
 .button-expanding:hover {
   width: 100px;
-  background-color: #c4e9ff;
 }
 .button-expanding {
   display: flex;

@@ -10,7 +10,7 @@
 
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #373a47;
+    background: #2b3a67;
   }
 
   /* Color/shape of burger icon bars on hover*/
@@ -29,7 +29,7 @@
 
   /* Color/shape of close button cross */
   .bm-cross {
-    background: #002447;
+    background: #2b3a67;
   }
 
   /*
@@ -50,7 +50,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
-    fill: #373a47;
+    fill: #2b3a67;
   }
 
   /* Wrapper for item list */
@@ -73,7 +73,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   .bm-item {
     display: inline-block;
 
-    color: #002447;
+    color: #2b3a67;
     margin-bottom: 10px;
     font-weight: 500;
     text-align: left;
@@ -98,7 +98,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #373a47;
+    background: #2b3a67;
   }
 
   /* Color/shape of burger icon bars on hover*/
@@ -117,7 +117,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   /* Color/shape of close button cross */
   .bm-cross {
-    background: #002447;
+    background: #2b3a67;
     min-height: 30px;
     min-width: 5px;
   }
@@ -140,7 +140,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
-    fill: #373a47;
+    fill: #2b3a67;
   }
 
   /* Wrapper for item list */
@@ -162,7 +162,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   /* Individual item */
   .bm-item {
     display: inline-block;
-    color: #002447;
+    color: #2b3a67;
     font-size: 25px;
     margin-bottom: 10px;
     text-align: left;
@@ -171,7 +171,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   .bm-item:hover {
-    color: #93d7ff;
+    color: #74a4bc;
     transition-duration: 0.5s;
   }
 }

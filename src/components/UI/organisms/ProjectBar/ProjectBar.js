@@ -6,9 +6,9 @@ import ProjectCard from '../../molecules/ProjectCard/ProjectCard';
 export default function () {
   return (
     <section className="projects-section">
-      <SectionHeading heading={'Projects'} />
+      <SectionHeading heading={'Projects'} styleClass={'project-header'} />
       <div className="project-group">
-        <ProjectCard projectName={'Gift Closet'} />
+        <ProjectCard projectName={'Gift Closet'} styleClass={'project'} />
       </div>
     </section>
   );

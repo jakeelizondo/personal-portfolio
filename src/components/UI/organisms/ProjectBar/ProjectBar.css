@@ -1,8 +1,8 @@
 /* projects section */
 
 .projects-section {
-  background-color: #f8f8f8;
   padding: 5% 0%;
+  background-color: #2b3a67;
 }
 
 .project-group {
@@ -11,4 +11,21 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.project {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+.project-header {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 40px;
 }
