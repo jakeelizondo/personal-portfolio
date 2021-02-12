@@ -1,7 +1,8 @@
 /* projects section */
 
 .projects-section {
-  background-color: #3facca;
+  background-color: #f8f8f8;
+  padding: 5% 0%;
 }
 
 .project-group {
@@ -12,70 +13,51 @@
   flex-wrap: wrap;
 }
 
+.project-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #002447;
+}
+
 .projects-header {
   text-align: center;
   padding: 20px;
 }
 
-.project-frame {
-  background-color: White;
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 20px;
-  padding: 20px;
-  max-width: 500px;
-}
-
-.skills-list {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.project-link {
-  font-weight: 600;
-  color: white;
-}
-
-.project-button-group {
+.project {
   margin-top: 25px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
-.project-button {
+.project img {
+  max-width: 50px;
+}
+
+.project button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #3facca;
   margin: 20px;
-  border-radius: 10px;
+  border: none;
   height: 30px;
-  width: 200px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 50px;
 }
 
-.project-button div:hover {
+.project button:hover {
+  width: 100px;
+  background-color: #c4e9ff;
+}
+.project button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: orange;
   transition-duration: 500ms;
-  border-radius: 10px;
   height: 30px;
-  width: 200px;
-}
-
-.project-button a:hover {
-  color: white;
-}
-
-.project-icon-img {
-  padding: 1px;
-  max-width: 50%;
-  height: auto;
+  width: 50px;
 }

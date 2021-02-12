@@ -1,7 +1,6 @@
 import React from 'react';
 import './Projects.css';
-import PROJECTS from '../../projects';
-import Project from '../../components/Project/Project';
+import giftClosetIcon from '../../images/003-gift-box.png';
 
 export default function () {
   return (
@@ -10,9 +9,13 @@ export default function () {
         Projects
       </h2>
       <div className="project-group">
-        {PROJECTS.map((project) => (
-          <Project project={project} key={project.id} />
-        ))}
+        <div className="project">
+          <div className="project-details">
+            <img src={giftClosetIcon} />
+            <h2>Gift Closet</h2>
+          </div>
+          <button>View</button>
+        </div>
       </div>
     </section>
   );

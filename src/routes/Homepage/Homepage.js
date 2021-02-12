@@ -14,7 +14,6 @@ export default function () {
           <h2>Let's build something together.</h2>
         </div>
       </section>
-      <Projects />
       <section className="intro-section">
         <img src={profPic} alt="jake-elizondo-developer-pic" />
         <div className="intro-content">
@@ -27,6 +26,7 @@ export default function () {
           </p>
         </div>
       </section>
+      <Projects />
     </React.Fragment>
   );
 }
