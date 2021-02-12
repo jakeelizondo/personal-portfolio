@@ -1,0 +1,22 @@
+.button-expanding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border: none;
+  height: 30px;
+  width: 50px;
+}
+
+.button-expanding:hover {
+  width: 100px;
+  background-color: #c4e9ff;
+}
+.button-expanding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 500ms;
+  height: 30px;
+  width: 50px;
+}

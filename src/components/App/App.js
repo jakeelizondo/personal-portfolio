@@ -1,14 +1,13 @@
 import React from 'react';
 
 import { Route } from 'react-router-dom';
-import Homepage from '../../routes/Homepage/Homepage';
-import Projects from '../../routes/Projects/Projects';
-import AboutMe from '../../routes/AboutMe/AboutMe';
-import Contact from '../../routes/Contact/Contact';
-import Sidebar from '../Sidebar/Sidebar';
+import Homepage from '../../pages/Homepage/Homepage';
+import Projects from '../UI/organisms/ProjectBar/ProjectBar';
+import AboutMe from '../../pages/AboutMe/AboutMe';
+import Contact from '../../pages/Contact/Contact';
+import Sidebar from '../UI/organisms/Sidebar/Sidebar';
 import './App.css';
-
-// TODO Get sidebar reveal working properly or switch back to swipe
+import Footer from '../UI/organisms/Footer/Footer';
 
 export default function App() {
   return (
@@ -20,7 +19,7 @@ export default function App() {
       <Route exact path="/projects" component={Projects} />
       <Route exact path="/about-me" component={AboutMe} />
       <Route exact path="/contact" component={Contact} />
-      <footer>Copyright Jake Elizondo 2021</footer>
+      <Footer />
     </div>
   );
 }

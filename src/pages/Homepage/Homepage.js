@@ -1,7 +1,7 @@
 import React from 'react';
 import './Homepage.css';
-import profPic from '../../../src/images/profile-pic.jpg';
-import Projects from '../Projects/Projects';
+import profPic from '../../assets/images/profile-pic.jpg';
+import ProjectBar from '../../components/UI/organisms/ProjectBar/ProjectBar';
 
 export default function () {
   return (
@@ -26,7 +26,7 @@ export default function () {
           </p>
         </div>
       </section>
-      <Projects />
+      <ProjectBar />
     </React.Fragment>
   );
 }
