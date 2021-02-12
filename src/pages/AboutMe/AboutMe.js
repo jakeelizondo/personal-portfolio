@@ -1,4 +1,6 @@
 import React from 'react';
+import SectionHeading from '../../components/UI/atoms/SectionHeading/SectionHeading';
+import ProjectBarDark from '../../components/UI/organisms/ProjectBarDark/ProjectBarDark';
 import './AboutMe.css';
 
 export default function () {
@@ -6,53 +8,30 @@ export default function () {
     <React.Fragment>
       <section className="about-section">
         <div className="about-group">
-          <div className="about-item">
-            <h2 id="about-me">About Me</h2>
-          </div>
-          <div className="about-item">
-            <p className="paragraph">
-              I enjoy making, constructing, and building things. When using
-              software applications or platforms, I find myself wondering how it
-              was built and what features could be added or changed to improve
-              the experience. I aim to build platforms that help other people
-              accomplish their goals. I am drawn to the job structure, the
-              community, the opportunities for ongoing education that software
-              development has to offer. I thrive working in groups and teams
-              (I’ve always preferred doubles tennis to singles!), and I look
-              forward to having opportunities to collaborate, learn from others,
-              and help those around me improve. I also believe that the
-              community is at its best when working on collaborative,
-              open-source projects. In my free time, I use many free platforms
-              that are developed and maintained by a devoted community, such as
-              Roll20 for Dungeons and Dragons online. It is a dream of mine to
-              be able to give back to these communities and contribute to
-              similar passion projects. The most important draw for me, however,
-              is the opportunity and desire for lifelong learning. I want to
-              work in a field where I am intrinsically motivated to learn and
-              grow over time. I am confident that software development has all
-              of the elements necessary for me to have a successful, satisfying
-              career.
+          <SectionHeading heading={'About Me'} styleClass={'about-heading'} />
+          <div>
+            <p>
+              Before diving into software, I was responsible for leading and
+              driving the growth of the digital marketing department of a
+              startup advertising agency as we grew from three employees working
+              in a living room, to an 18-person agency. While I enjoyed the
+              opportunity to wear many hats in my role, I found myself most
+              engaged when collaborating with our software vendor partners.
+              Through my involvement in various product alphas and betas, as
+              well as feedback calls with product managers, I discovered my
+              interest in the technical challenges and iterative design process
+              of software development. After a period of self-study, I decided
+              to pursue this part-time passion full-time through the Thinkful
+              Full-Stack Software Engineering program. I immersed myself in both
+              frontend and backend web development and produced multiple
+              projects demonstrating with the PERN stack. It is difficult to
+              understate how much I learned about test-driven, full-stack
+              development through this process, or how much fun I had!
             </p>
-          </div>
-          <div className="about-item">
-            <div>
-              <h3>When I'm not coding, I like to:</h3>
-            </div>
-          </div>
-          <div className="about-list">
-            <div>
-              <ol>
-                <li>Rock Climb</li>
-                <li>Play Dungeons & Dragons</li>
-                <li>Read or listen to podcasts</li>
-                <li>Watch Everton struggle in the Premier League</li>
-                <li>Play video games or board games</li>
-                <li>Ride my bike</li>
-              </ol>
-            </div>
           </div>
         </div>
       </section>
+      <ProjectBarDark />
     </React.Fragment>
   );
 }

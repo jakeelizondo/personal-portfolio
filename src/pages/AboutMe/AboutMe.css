@@ -1,22 +1,19 @@
 /* about section */
 
 .about-section {
-  background-color: #3facca;
   padding: 20px;
+  color: #2b3a67;
+}
+
+.about-heading {
+  font-size: 50px;
+  text-align: left;
 }
 
 .about-group {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  text-align: center;
-}
-
-.about-item {
-  display: flex;
-  padding: 1px;
-  padding-left: 20px;
-  padding-right: 20px;
-  list-style-position: inside;
+  padding: 10% 10% 5% 10%;
 }
