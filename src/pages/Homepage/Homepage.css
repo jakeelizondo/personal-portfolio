@@ -1,40 +1,44 @@
 @media all and (max-width: 800px) {
-  .headline {
-    padding: 15% 10% 0% 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
   .headline h1 {
-    font-size: 35px;
+    font-size: 42px;
+    font-weight: 700;
   }
 
   .headline h2 {
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: 400;
   }
 
   .headline h1,
   h2 {
-    margin: 5px 0px;
+    margin: 10px 0px;
   }
 
   /* intro section */
 
-  .intro-section {
-    padding: 10%;
-    display: flex;
-    flex-flow: column;
+  .intro-section img {
+    width: 50%;
+    max-width: 400px;
+    object-fit: cover;
+    display: none;
+    border-radius: 5px;
+    margin-right: 50px;
   }
 
-  .intro-section img {
-    max-width: 30%;
-    border-radius: 5px;
+  .intro-section {
+    display: flex;
+    flex-flow: row;
+    padding: 15% 10% 8% 10%;
+    justify-content: flex-start;
+    align-items: center;
   }
 
   .intro-content {
-    max-width: 98%;
-    padding-top: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    flex: 2;
+    font-size: 20px;
   }
 }
 
