@@ -1,5 +1,6 @@
 import React from 'react';
 import ButtonExpanding from '../../atoms/ButtonExpanding/ButtonExpanding';
+import ExternalLinkButton from '../../atoms/ExternalLinkButton/ExternalLinkButton';
 import SectionHeading from '../../atoms/SectionHeading/SectionHeading';
 import './ContactInfoBar.css';
 
@@ -11,11 +12,11 @@ export default function ContactInfoBar(props) {
         styleClass={'contact-heading'}
       />
       <div className="contact-button-group">
-        <ButtonExpanding
+        <ExternalLinkButton
           text={'LinkedIn'}
           linkTo={'https://www.linkedin.com/in/jakeelizondo/'}
         />
-        <ButtonExpanding
+        <ExternalLinkButton
           text={'Github'}
           linkTo={'https://github.com/jakeelizondo/'}
         />
