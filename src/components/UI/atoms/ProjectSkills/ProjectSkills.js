@@ -3,12 +3,17 @@ import SectionHeading from '../SectionHeading/SectionHeading';
 import nodeIcon from '../../../..//assets/images/node-logo.png';
 import reactIcon from '../../../../assets/images/react-logo2.png';
 import postgresIcon from '../../../../assets/images/postgres-logo.png';
+import html5Icon from '../../../../assets/images/html5-icon.png';
+import css3Icon from '../../../../assets/images/css-icon.png';
+
 import './ProjectSkills.css';
 
 const skillsIcons = {
   React: reactIcon,
   NodeJS: nodeIcon,
   PostgreSQL: postgresIcon,
+  HTML5: html5Icon,
+  CSS3: css3Icon,
 };
 
 export default class ProjectSkills extends React.Component {

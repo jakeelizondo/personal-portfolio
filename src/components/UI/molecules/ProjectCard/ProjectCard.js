@@ -6,8 +6,8 @@ import './ProjectCard.css';
 export default function ProjectCard(props) {
   return (
     <div className={props.styleClass}>
-      <ProjectIcon projectName={props.projectName} />
-      <ButtonExpanding text={'View'} linkTo={`/projects/${1}`} />
+      <ProjectIcon project={props.project} />
+      <ButtonExpanding text={'View'} linkTo={`/projects/${props.project.id}`} />
     </div>
   );
 }

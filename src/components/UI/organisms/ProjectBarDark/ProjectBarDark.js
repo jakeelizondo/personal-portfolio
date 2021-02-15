@@ -2,6 +2,7 @@ import React from 'react';
 import './ProjectBarDark.css';
 import SectionHeading from '../../atoms/SectionHeading/SectionHeading';
 import ProjectCard from '../../molecules/ProjectCard/ProjectCard';
+import PROJECTS from '../../../../PROJECTS';
 
 export default function () {
   return (
@@ -11,7 +12,9 @@ export default function () {
         styleClass={'project-header-light'}
       />
       <div className="project-group">
-        <ProjectCard projectName={'Gift Closet'} styleClass={'project-light'} />
+        {PROJECTS.map((project) => (
+          <ProjectCard project={project} styleClass={'project-light'} />
+        ))}
       </div>
     </section>
   );

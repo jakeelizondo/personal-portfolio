@@ -6,9 +6,11 @@ import ProjectSkills from '../../components/UI/atoms/ProjectSkills/ProjectSkills
 import ProjectLinks from '../../components/UI/molecules/ProjectLinks/ProjectLinks';
 import './ProjectDetailPage.css';
 import giftClosetScreenshot from '../../assets/images/gift-closet-screenshot.PNG';
+import itemVaultScreenshot from '../../assets/images/item-vault-screenshot.PNG';
 
 const screenShots = {
   'Gift Closet': giftClosetScreenshot,
+  'The Item Vault': itemVaultScreenshot,
 };
 
 export default class ProjectDetailPage extends React.Component {
@@ -25,7 +27,7 @@ export default class ProjectDetailPage extends React.Component {
     return (
       <React.Fragment>
         <section className="project-display">
-          <ProjectIconRow projectName={project.name} />
+          <ProjectIconRow project={project} />
           <SmallContentSection
             heading={'Project Description'}
             styleClass={'project-description-section'}
