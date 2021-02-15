@@ -1,21 +1,26 @@
 .button-expanding:hover {
-  width: 150px;
+  width: 180px;
 }
 .button-expanding {
-  display: flex;
+  display: block;
+  width: 100%;
   font-size: 20px;
+  font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
   margin: 20px;
-  padding: 5px;
   border: none;
-  justify-content: center;
-  align-items: center;
+  cursor: pointer;
+  text-align: center;
   transition-duration: 500ms;
-  color: #004996;
-  height: 30px;
-  width: 100px;
+  color: white;
+  background-color: #e63946;
+  height: 50px;
+  width: 150px;
+  border-radius: 7px;
 }
 
 .button-expanding a {
   text-decoration: none;
-  color: #004996;
+  width: 100%;
+  color: white;
 }
