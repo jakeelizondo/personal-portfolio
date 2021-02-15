@@ -5,9 +5,7 @@ export default function ContactMeFormDark() {
   return (
     <React.Fragment>
       <section className="contact-form-section-dark">
-        <h3 className="contact-form-heading-dark">
-          Contact me through the form below!
-        </h3>
+        <h3 className="contact-form-heading-dark">Contact me</h3>
         <form
           className="form-group-dark"
           action="https://formspree.io/f/xyybpylb"

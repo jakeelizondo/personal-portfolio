@@ -1,5 +1,5 @@
 .contact-section {
-  margin: 5% 0% 5% 0%;
+  margin: 10% 0% 10% 0%;
 }
 
 .contact-button-group {
@@ -12,6 +12,8 @@
 .contact-heading {
   text-align: center;
   color: #1d3557;
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: 200;
+  letter-spacing: -1px;
   margin-bottom: 40px;
 }

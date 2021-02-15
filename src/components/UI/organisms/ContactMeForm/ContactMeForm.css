@@ -7,7 +7,9 @@
 }
 
 .contact-form-heading {
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: 200;
+  letter-spacing: -1px;
   color: #2f3237;
 }
 
@@ -53,38 +55,4 @@
   flex-flow: row;
   justify-content: space-evenly;
   align-items: center;
-}
-
-.contact-form-submit:hover {
-  width: 150px;
-}
-.contact-form-submit {
-  display: flex;
-  margin: 20px;
-  padding: 5px;
-  font-size: 20px;
-  border: none;
-  justify-content: center;
-  align-items: center;
-  transition-duration: 500ms;
-  color: #004996;
-  height: 30px;
-  width: 100px;
-}
-
-.contact-form-reset:hover {
-  width: 150px;
-}
-.contact-form-reset {
-  display: flex;
-  margin: 20px;
-  padding: 5px;
-  border: none;
-  justify-content: center;
-  align-items: center;
-  transition-duration: 500ms;
-  color: #004996;
-  font-size: 20px;
-  height: 30px;
-  width: 100px;
 }

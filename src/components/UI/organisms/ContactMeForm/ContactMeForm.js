@@ -5,9 +5,7 @@ export default function ContactMeForm() {
   return (
     <React.Fragment>
       <section className="contact-form-section">
-        <h3 className="contact-form-heading">
-          Contact me through the form below!
-        </h3>
+        <h3 className="contact-form-heading">Contact me</h3>
         <form
           className="form-group"
           action="https://formspree.io/f/xyybpylb"
