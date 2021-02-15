@@ -6,7 +6,7 @@ import './AboutMe.css';
 export default function () {
   return (
     <React.Fragment>
-      <section className="about-section">
+      <section className="about-section dark-text">
         <div className="about-group">
           <SectionHeading heading={'About Me'} styleClass={'about-heading'} />
           <div>
@@ -20,13 +20,16 @@ export default function () {
               Through my involvement in various product alphas and betas, as
               well as feedback calls with product managers, I discovered my
               interest in the technical challenges and iterative design process
-              of software development. After a period of self-study, I decided
-              to pursue this part-time passion full-time through the Thinkful
-              Full-Stack Software Engineering program. I immersed myself in both
-              frontend and backend web development and produced multiple
-              projects demonstrating with the PERN stack. It is difficult to
-              understate how much I learned about test-driven, full-stack
-              development through this process, or how much fun I had!
+              of software development.{' '}
+            </p>
+            <p>
+              After a period of self-study, I decided to pursue this part-time
+              passion full-time through the Thinkful Full-Stack Software
+              Engineering program. I immersed myself in both frontend and
+              backend web development and produced multiple projects
+              demonstrating with the PERN stack. It is difficult to understate
+              how much I learned about test-driven, full-stack development
+              through this process, or how much fun I had!
             </p>
           </div>
         </div>

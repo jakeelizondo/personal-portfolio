@@ -28,6 +28,7 @@ export default class ProjectDetailPage extends React.Component {
           <ProjectIconRow projectName={project.name} />
           <SmallContentSection
             heading={'Project Description'}
+            styleClass={'project-description-section'}
             content={project.description}
           />
           <ProjectSkills iconNames={project.skills} />

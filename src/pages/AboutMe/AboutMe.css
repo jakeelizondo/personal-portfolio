@@ -2,12 +2,17 @@
 
 .about-section {
   padding: 20px;
-  color: #2f3237;
 }
 
 .about-heading {
-  font-size: 50px;
+  font-size: 62px;
+  letter-spacing: -1px;
+  font-weight: 200;
   text-align: left;
+}
+
+.about-section p {
+  font-size: 20px;
 }
 
 .about-group {

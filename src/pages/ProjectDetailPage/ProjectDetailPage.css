@@ -10,14 +10,25 @@
   max-width: 100%;
   height: auto;
   border-radius: 5px;
+  -webkit-box-shadow: 3px 2px 15px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 2px 15px 1px rgba(0, 0, 0, 0.2);
 }
 
 .project-display-screenshot {
   display: flex;
-  background-color: #004996;
+  background-color: #d7e8f7;
   padding: 5%;
 }
 
 .project-display > div {
   padding: 3% 0%;
+}
+
+.project-description-section p {
+  font-size: 20px;
+}
+
+.project-description-section h2 {
+  font-size: 30px;
+  padding-bottom: 3%;
 }

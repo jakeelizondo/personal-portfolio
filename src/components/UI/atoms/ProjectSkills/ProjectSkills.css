@@ -3,12 +3,16 @@
   flex-direction: column;
 }
 
+.project-skills-heading {
+  font-size: 30px;
+}
+
 .project-tech-icons {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 5% 0%;
+  padding: 5% 0% 3% 0%;
 }
 
 .skill-icon {

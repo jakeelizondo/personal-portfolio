@@ -32,13 +32,12 @@ export default function ContactMeForm() {
             />
           </div>
           <div className="contact-form-field">
-            <label for="location-1">Zip Code:</label>
+            <label for="location-1">Phone:</label>
             <input
               id="location-1"
-              type="text"
-              placeholder="55555"
-              name="zipcode"
-              maxlength="5"
+              type="tel"
+              placeholder="555-555-5555"
+              name="phone"
               required
             />
           </div>

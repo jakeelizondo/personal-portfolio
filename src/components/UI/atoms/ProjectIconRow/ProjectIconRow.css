@@ -1,15 +1,18 @@
 .project-details-row img {
-  max-width: 50px;
+  max-width: 100px;
 }
 
 .project-details-row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .project-details-row h2 {
-  margin-left: 15px;
-  font-size: 40px;
+  margin-left: 20px;
+  letter-spacing: -1px;
+  font-weight: 200;
+  margin-bottom: 0;
+  font-size: 62px;
 }

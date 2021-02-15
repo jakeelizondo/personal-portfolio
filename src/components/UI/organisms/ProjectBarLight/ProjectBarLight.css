@@ -14,17 +14,24 @@
 
 .project-dark {
   margin-top: 25px;
+  width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
   color: #1d3557;
+  background-color: white;
+  border-radius: 7px;
+  -webkit-box-shadow: 3px 2px 15px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 2px 15px 1px rgba(0, 0, 0, 0.2);
 }
 
 .project-header-dark {
   text-align: center;
   padding: 20px;
   color: #1d3557;
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: 200;
+  letter-spacing: -1px;
 }

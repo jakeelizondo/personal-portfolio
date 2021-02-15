@@ -3,7 +3,7 @@ import SectionHeading from '../SectionHeading/SectionHeading';
 
 export default function SmallContentSection(props) {
   return (
-    <div>
+    <div className={props.styleClass}>
       <SectionHeading
         styleClass={'small-content-section-heading'}
         heading={props.heading}
