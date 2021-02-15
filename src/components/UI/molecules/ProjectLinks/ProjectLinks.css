@@ -1,0 +1,14 @@
+.project-links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.project-links-buttons {
+  padding-top: 5%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

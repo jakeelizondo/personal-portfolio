@@ -7,6 +7,7 @@ import Sidebar from '../UI/organisms/Sidebar/Sidebar';
 import './App.css';
 import Footer from '../UI/organisms/Footer/Footer';
 import ProjectsPage from '../../pages/ProjectsPage/ProjectsPage';
+import ProjectDetailPage from '../../pages/ProjectDetailPage/ProjectDetailPage';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <Route exact path="/projects" component={ProjectsPage} />
       <Route exact path="/about-me" component={AboutMe} />
       <Route exact path="/contact" component={Contact} />
+      <Route exact path="/projects/:id" component={ProjectDetailPage} />
       <Route path="/" component={Footer} />
     </div>
   );

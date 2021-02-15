@@ -28,7 +28,7 @@
     flex-flow: column;
   }
 
-  img {
+  .intro-section img {
     max-width: 30%;
     border-radius: 5px;
   }
@@ -63,8 +63,8 @@
 
   /* intro section */
 
-  img {
-    max-width: 10%;
+  .intro-section img {
+    max-width: 20%;
     object-fit: cover;
     border-radius: 5px;
     flex: 1;

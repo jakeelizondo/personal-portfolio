@@ -9,7 +9,6 @@ export default function () {
     <React.Fragment>
       <ContactMeForm />
       <ContactInfoBarDark />
-      <ProjectBarLight />
     </React.Fragment>
   );
 }

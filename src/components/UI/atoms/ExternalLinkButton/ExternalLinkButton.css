@@ -1,7 +1,7 @@
-.button-expanding:hover {
-  width: 150px;
+.external-button:hover {
+  width: 200px;
 }
-.button-expanding {
+.external-button {
   display: flex;
   font-size: 20px;
   margin: 20px;
@@ -12,10 +12,10 @@
   transition-duration: 500ms;
   color: #004996;
   height: 30px;
-  width: 100px;
+  width: 150px;
 }
 
-.button-expanding a {
+.external-button a {
   text-decoration: none;
   color: #004996;
 }

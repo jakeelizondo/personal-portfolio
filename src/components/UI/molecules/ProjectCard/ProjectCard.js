@@ -7,7 +7,7 @@ export default function ProjectCard(props) {
   return (
     <div className={props.styleClass}>
       <ProjectIcon projectName={props.projectName} />
-      <ButtonExpanding text={'View'} />
+      <ButtonExpanding text={'View'} linkTo={`/projects/${1}`} />
     </div>
   );
 }

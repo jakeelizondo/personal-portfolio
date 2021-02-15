@@ -5,10 +5,10 @@ import './ContactInfoBarDark.css';
 
 export default function ContactInfoBarDark(props) {
   return (
-    <section className="contact-section">
+    <section className="contact-section-dark">
       <SectionHeading
         heading={'Connect with me online'}
-        styleClass={'contact-heading'}
+        styleClass={'contact-heading-dark'}
       />
       <div className="contact-button-group">
         <ButtonExpanding
