@@ -18,6 +18,7 @@ const screenShots = {
 export default class ProjectDetailPage extends React.Component {
   state = { project: {} };
   componentDidMount() {
+    window.scrollTo(0, 0);
     let project = PROJECTS.find((project) => {
       return project.id === Number(this.props.match.params.id);
     });
