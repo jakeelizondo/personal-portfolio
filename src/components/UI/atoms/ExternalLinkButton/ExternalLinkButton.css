@@ -13,7 +13,7 @@
     color: white;
     background-color: #e63946;
     height: 50px;
-    width: 150px;
+    width: 170px;
     border-radius: 7px;
   }
 
@@ -29,7 +29,7 @@
 }
 @media all and (min-width: 800px) {
   .external-button:hover {
-    width: 180px;
+    width: 200px;
   }
   .external-button {
     display: block;
@@ -45,7 +45,7 @@
     color: white;
     background-color: #e63946;
     height: 50px;
-    width: 150px;
+    width: 170px;
     border-radius: 7px;
   }
 
