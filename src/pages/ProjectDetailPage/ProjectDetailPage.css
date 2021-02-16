@@ -9,7 +9,6 @@
 
   .project-display-screenshot img {
     max-width: 100%;
-    height: auto;
     border-radius: 5px;
     -webkit-box-shadow: 3px 2px 15px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 3px 2px 15px 1px rgba(0, 0, 0, 0.2);
