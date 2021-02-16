@@ -15,9 +15,7 @@
   }
 
   .project-display-screenshot {
-    display: flex;
-    background-color: #d7e8f7;
-    padding: 5%;
+    display: none;
   }
 
   .project-display > div {
