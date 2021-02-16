@@ -2,6 +2,7 @@ import React from 'react';
 import giftClosetIcon from '../../../../assets/images/003-gift-box.png';
 import './ProjectIconRow.css';
 import itemVaultIcon from '../../../../assets/images/item-vault.png';
+import quizAppIcon from '../../../../assets/images/pngegg.png';
 
 export default function ProjectIconRow(props) {
   let imgSrc;
@@ -11,6 +12,11 @@ export default function ProjectIconRow(props) {
   if (props.project.name === 'The Item Vault') {
     imgSrc = itemVaultIcon;
   }
+
+  if (props.project.name === 'Quiz App') {
+    imgSrc = quizAppIcon;
+  }
+
   return (
     <div className="project-details-row">
       <img src={imgSrc} />

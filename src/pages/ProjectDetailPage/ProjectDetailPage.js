@@ -7,10 +7,12 @@ import ProjectLinks from '../../components/UI/molecules/ProjectLinks/ProjectLink
 import './ProjectDetailPage.css';
 import giftClosetScreenshot from '../../assets/images/gift-closet-screenshot.PNG';
 import itemVaultScreenshot from '../../assets/images/item-vault-screenshot.PNG';
+import quizAppScreenshot from '../../assets/images/quiz-app-screenshot.PNG';
 
 const screenShots = {
   'Gift Closet': giftClosetScreenshot,
   'The Item Vault': itemVaultScreenshot,
+  'Quiz App': quizAppScreenshot,
 };
 
 export default class ProjectDetailPage extends React.Component {

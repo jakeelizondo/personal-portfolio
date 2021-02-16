@@ -31,6 +31,20 @@ const PROJECTS = [
       },
     ],
   },
+  {
+    id: 3,
+    name: 'Quiz App',
+    description:
+      'This simple online quiz was built to practice utilizing the JQuery library, as well as maintaining data inside of local state in an application and displaying changes in that state to the user.',
+    skills: ['JQuery', 'HTML5', 'CSS3'],
+    links: [
+      { name: 'Live App', url: 'https://jakeelizondo.github.io/quiz-app/' },
+      {
+        name: 'Client Github',
+        url: 'https://github.com/jakeelizondo/quiz-app/',
+      },
+    ],
+  },
 ];
 
 module.exports = PROJECTS;
