@@ -6,6 +6,7 @@ import postgresIcon from '../../../../assets/images/postgres-logo.png';
 import html5Icon from '../../../../assets/images/html5-icon.png';
 import css3Icon from '../../../../assets/images/css-icon.png';
 import jQueryIcon from '../../../../assets/images/pngegg.png';
+import hooksIcon from '../../../../assets/images/react-hooks-icon.png';
 
 import './ProjectSkills.css';
 
@@ -16,6 +17,7 @@ const skillsIcons = {
   HTML5: html5Icon,
   CSS3: css3Icon,
   JQuery: jQueryIcon,
+  'React Hooks': hooksIcon,
 };
 
 export default class ProjectSkills extends React.Component {

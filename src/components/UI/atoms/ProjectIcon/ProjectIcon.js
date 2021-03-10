@@ -2,7 +2,7 @@ import React from 'react';
 import giftClosetIcon from '../../../../assets/images/003-gift-box.png';
 import './ProjectIcon.css';
 import itemVaultIcon from '../../../../assets/images/item-vault.png';
-import quizAppIcon from '../../../../assets/images/pngegg.png';
+import eplAppIcon from '../../../../assets/images/001-football.png';
 
 export default function ProjectIcon(props) {
   let imgSrc;
@@ -13,8 +13,8 @@ export default function ProjectIcon(props) {
     imgSrc = itemVaultIcon;
   }
 
-  if (props.project.name === 'Quiz App') {
-    imgSrc = quizAppIcon;
+  if (props.project.name === 'My Epl News') {
+    imgSrc = eplAppIcon;
   }
 
   return (
