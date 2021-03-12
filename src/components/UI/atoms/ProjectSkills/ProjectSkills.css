@@ -10,6 +10,7 @@
 
   .project-tech-icons {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -21,6 +22,8 @@
     align-items: center;
     justify-content: center;
     flex: 1;
+    padding: 3% 0%;
+    flex-basis: 33%;
   }
 
   .project-tech-icons img {
@@ -40,6 +43,7 @@
 
   .project-tech-icons {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -51,6 +55,8 @@
     align-items: center;
     justify-content: center;
     flex: 1;
+    padding: 3% 0%;
+    flex-basis: 33%;
   }
 
   .project-tech-icons img {

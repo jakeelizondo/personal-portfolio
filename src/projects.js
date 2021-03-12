@@ -22,8 +22,8 @@ const PROJECTS = [
     id: 2,
     name: 'My Epl News',
     description:
-      'Full stack application that uses a third party API to fetch and store articles about current English Premier League teams. Designed and built front end application with React Hooks to integrate with Node.js server. Designed and built database and server to store and manage application users and data. Includes user registration and authentication system, as well as fully independent news views for desktop and mobile using react-responsive.',
-    skills: ['React', 'React Hooks', 'NodeJS', 'PostgreSQL'],
+      'Full stack application that uses a third party API to fetch and store articles about current English Premier League teams. Designed and built front end application with React Hooks to integrate with Node.js server. Designed and built database and server to store and manage application users and data. The REST API is also wrapped in a GraphQL server using Apollo Graphql middleware which exposes the public articles endpoints to GraphQL queries. Includes user registration and authentication system, as well as fully independent news views for desktop and mobile using react-responsive.',
+    skills: ['React', 'React Hooks', 'NodeJS', 'PostgreSQL', 'GraphQL'],
     links: [
       { name: 'Live App', url: 'https://my-epl-news.vercel.app/' },
       {
