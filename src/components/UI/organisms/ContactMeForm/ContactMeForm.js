@@ -12,7 +12,7 @@ export default function ContactMeForm() {
           method="POST"
         >
           <div className="contact-form-field">
-            <label for="user-name-1">Your Name:</label>
+            <label htmlFor="user-name-1">Your Name:</label>
             <input
               id="user-name-1"
               type="text"
@@ -22,7 +22,7 @@ export default function ContactMeForm() {
             />
           </div>
           <div className="contact-form-field">
-            <label for="email-1">Your Email:</label>
+            <label htmlFor="email-1">Your Email:</label>
             <input
               id="email-1"
               type="email"
@@ -32,7 +32,7 @@ export default function ContactMeForm() {
             />
           </div>
           <div className="contact-form-field">
-            <label for="location-1">Phone:</label>
+            <label htmlFor="location-1">Phone:</label>
             <input
               id="location-1"
               type="tel"
@@ -42,7 +42,7 @@ export default function ContactMeForm() {
             />
           </div>
           <div className="contact-form-field-text-area">
-            <label for="textarea-1">Requests/Comments:</label>
+            <label htmlFor="textarea-1">Requests/Comments:</label>
             <textarea
               name="textarea-1"
               id="textarea-1"

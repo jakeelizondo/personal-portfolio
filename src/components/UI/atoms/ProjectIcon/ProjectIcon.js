@@ -13,7 +13,7 @@ export default function ProjectIcon(props) {
     imgSrc = itemVaultIcon;
   }
 
-  if (props.project.name === 'My Epl News') {
+  if (props.project.name === 'My EPL News') {
     imgSrc = eplAppIcon;
   }
 

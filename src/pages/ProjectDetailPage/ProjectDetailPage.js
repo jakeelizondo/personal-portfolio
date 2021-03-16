@@ -12,7 +12,7 @@ import eplNewsScreenshot from '../../assets/images/epl-news-screenshot-large.PNG
 const screenShots = {
   'Gift Closet': giftClosetScreenshot,
   'The Item Vault': itemVaultScreenshot,
-  'My Epl News': eplNewsScreenshot,
+  'My EPL News': eplNewsScreenshot,
 };
 
 export default class ProjectDetailPage extends React.Component {
