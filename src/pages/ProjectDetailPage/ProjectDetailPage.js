@@ -8,11 +8,13 @@ import './ProjectDetailPage.css';
 import giftClosetScreenshot from '../../assets/images/gift-closet-screenshot.PNG';
 import itemVaultScreenshot from '../../assets/images/item-vault-screenshot.PNG';
 import eplNewsScreenshot from '../../assets/images/epl-news-screenshot-large.PNG';
+import spanishYourWayScreenshot from '../../assets/images/spanish-your-way-screenshot.PNG';
 
 const screenShots = {
   'Gift Closet': giftClosetScreenshot,
   'The Item Vault': itemVaultScreenshot,
   'My EPL News': eplNewsScreenshot,
+  'Spanish Your Way': spanishYourWayScreenshot,
 };
 
 export default class ProjectDetailPage extends React.Component {

@@ -3,6 +3,7 @@ import giftClosetIcon from '../../../../assets/images/003-gift-box.png';
 import './ProjectIconRow.css';
 import itemVaultIcon from '../../../../assets/images/item-vault.png';
 import eplAppIcon from '../../../../assets/images/001-football.png';
+import SYWIcon from '../../../../assets/images/spanish-flag-icon.png';
 
 export default function ProjectIconRow(props) {
   let imgSrc;
@@ -15,6 +16,10 @@ export default function ProjectIconRow(props) {
 
   if (props.project.name === 'My EPL News') {
     imgSrc = eplAppIcon;
+  }
+
+  if (props.project.name === 'Spanish Your Way') {
+    imgSrc = SYWIcon;
   }
 
   return (
