@@ -2,7 +2,6 @@ import React from 'react';
 import SectionHeading from '../../components/UI/atoms/SectionHeading/SectionHeading';
 import ProjectBarDark from '../../components/UI/organisms/ProjectBarDark/ProjectBarDark';
 import './AboutMe.css';
-import jakeRockClimbing from '../../assets/images/IMG_E2462.JPG';
 
 export default class AboutMe extends React.Component {
   componentDidMount() {
@@ -33,7 +32,9 @@ export default class AboutMe extends React.Component {
               </p>
               <img
                 className="about-image"
-                src={jakeRockClimbing}
+                src={
+                  'https://res.cloudinary.com/dyz6qaw5e/image/upload/v1616428433/portfolio/IMG_E2462_oi718c.webp'
+                }
                 alt="jake-rock-climbing"
               />
               <p>
