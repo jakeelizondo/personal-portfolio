@@ -1,3 +1,5 @@
+/* projects section */
+
 @media all and (max-width: 800px) {
   /* projects section */
 
@@ -15,7 +17,7 @@
     padding: 0% 0% 10% 0%;
   }
 
-  .project-light {
+  .project {
     margin: 25px 10px 0px 10px;
     width: 250px;
     display: flex;
@@ -30,7 +32,7 @@
     box-shadow: 3px 2px 15px 1px rgba(0, 0, 0, 0.2);
   }
 
-  .project-header-light {
+  .project-header {
     text-align: center;
     padding: 20px;
     color: #1d3557;
@@ -56,14 +58,26 @@
     flex-wrap: wrap;
   }
 
-  .project-light {
+  .projects-section-light {
+    padding: 5% 0%;
+  }
+
+  .project-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .project {
     margin: 25px 10px 0px 10px;
     width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 25px;
     color: #1d3557;
     background-color: white;
     border-radius: 7px;
@@ -71,7 +85,7 @@
     box-shadow: 3px 2px 15px 1px rgba(0, 0, 0, 0.2);
   }
 
-  .project-header-light {
+  .project-header {
     text-align: center;
     padding: 20px;
     color: #1d3557;

@@ -9,6 +9,7 @@ import giftClosetScreenshot from '../../assets/images/gift-closet-screenshot.PNG
 import itemVaultScreenshot from '../../assets/images/item-vault-screenshot.PNG';
 import eplNewsScreenshot from '../../assets/images/epl-news-screenshot-large.PNG';
 import spanishYourWayScreenshot from '../../assets/images/spanish-your-way-screenshot.PNG';
+import ButtonExpanding from '../../components/UI/atoms/ButtonExpanding/ButtonExpanding';
 
 const screenShots = {
   'Gift Closet': giftClosetScreenshot,
@@ -31,6 +32,12 @@ export default class ProjectDetailPage extends React.Component {
     let project = this.state.project;
     return (
       <React.Fragment>
+        <button
+          className={'back-button'}
+          onClick={() => this.props.history.goBack()}
+        >
+          Back{' '}
+        </button>
         <section className="project-display">
           <ProjectIconRow project={project} />
           <SmallContentSection

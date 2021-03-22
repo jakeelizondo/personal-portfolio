@@ -1,7 +1,7 @@
 import React from 'react';
 import './Homepage.css';
 import profPic from '../../assets/images/jake_elizondo_headshot.jpg';
-import ProjectBar from '../../components/UI/organisms/ProjectBarDark/ProjectBarDark';
+import ProjectBar from '../../components/UI/organisms/ProjectBar/ProjectBar';
 import ContactInfoBar from '../../components/UI/molecules/ContactInfoBar/ContactInfoBar';
 import ContactMeFormDark from '../../components/UI/organisms/ContactMeFormDark/ContactMeFormDark';
 
@@ -30,10 +30,7 @@ export default class Homepage extends React.Component {
             </p>
           </div>
         </section>
-        <ProjectBar
-          projectCardStyle={'project'}
-          headingStyle={'project-header'}
-        />
+        <ProjectBar {...this.props} style={'dark'} />
         <ContactInfoBar />
         <ContactMeFormDark />
       </React.Fragment>

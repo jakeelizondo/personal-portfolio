@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 10% 10% 5% 10%;
+    padding: 5% 10% 5% 10%;
     color: #2f3237;
   }
 
@@ -29,13 +29,31 @@
   .project-description-section h2 {
     font-size: 24px;
   }
+
+  .back-button {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    margin: 50px 0px 0px 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition-duration: 500ms;
+    color: white;
+    background-color: #e63946;
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+  }
 }
 @media all and (min-width: 800px) {
   .project-display {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 10% 10% 5% 10%;
+    padding: 5% 10% 5% 10%;
     color: #2f3237;
   }
 
@@ -64,5 +82,27 @@
   .project-description-section h2 {
     font-size: 30px;
     padding-bottom: 3%;
+  }
+
+  .back-button {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    margin: 100px 0px 0px 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition-duration: 500ms;
+    color: white;
+    background-color: #e63946;
+    height: 50px;
+    width: 150px;
+    border-radius: 7px;
+  }
+
+  .back-button:hover {
+    width: 180px;
   }
 }

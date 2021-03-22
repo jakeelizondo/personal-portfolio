@@ -1,6 +1,5 @@
 import React from 'react';
 import SectionHeading from '../../components/UI/atoms/SectionHeading/SectionHeading';
-import ProjectBarDark from '../../components/UI/organisms/ProjectBarDark/ProjectBarDark';
 import './AboutMe.css';
 
 export default class AboutMe extends React.Component {
@@ -13,7 +12,7 @@ export default class AboutMe extends React.Component {
         <section className="about-section dark-text">
           <div className="about-group">
             <SectionHeading heading={'About Me'} styleClass={'about-heading'} />
-            <div className="about-content">
+            <article className="about-content">
               <p>
                 Before diving into software, I was responsible for leading and
                 driving the growth of the digital marketing department of a
@@ -45,10 +44,9 @@ export default class AboutMe extends React.Component {
                 playing some new overly complicated niche board game or questing
                 in Azeroth or a homebrewed DND campaign.
               </p>
-            </div>
+            </article>
           </div>
         </section>
-        <ProjectBarDark />
       </React.Fragment>
     );
   }

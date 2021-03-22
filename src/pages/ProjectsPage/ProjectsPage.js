@@ -1,11 +1,11 @@
 import React from 'react';
-import ProjectBarLight from '../../components/UI/organisms/ProjectBarLight/ProjectBarLight';
+import ProjectBar from '../../components/UI/organisms/ProjectBar/ProjectBar';
 import './ProjectsPage.css';
 
-export default function ProjectsPage() {
+export default function ProjectsPage(props) {
   return (
     <div className="projects-page-projects-section">
-      <ProjectBarLight />
+      <ProjectBar style={'light'} {...props} />
     </div>
   );
 }

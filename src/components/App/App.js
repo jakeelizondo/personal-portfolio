@@ -11,16 +11,16 @@ import ProjectDetailPage from '../../pages/ProjectDetailPage/ProjectDetailPage';
 
 export default function App() {
   return (
-    <div>
-      <div>
+    <main>
+      <header>
         <Sidebar />
-      </div>
+      </header>
       <Route exact path="/" component={Homepage} />
       <Route exact path="/projects" component={ProjectsPage} />
       <Route exact path="/about-me" component={AboutMe} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/projects/:id" component={ProjectDetailPage} />
       <Route path="/" component={Footer} />
-    </div>
+    </main>
   );
 }
