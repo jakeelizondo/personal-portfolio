@@ -12,8 +12,19 @@
     text-align: left;
   }
 
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .about-section p {
     font-size: 15px;
+  }
+
+  .about-image {
+    max-width: 90%;
+    margin: 10px 0px;
   }
 
   .about-group {
@@ -35,6 +46,17 @@
     letter-spacing: -1px;
     font-weight: 200;
     text-align: left;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-image {
+    max-width: 70%;
+    margin: 10px 0px;
   }
 
   .about-section p {

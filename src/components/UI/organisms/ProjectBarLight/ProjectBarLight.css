@@ -13,7 +13,7 @@
 }
 
 .project-dark {
-  margin-top: 25px;
+  margin: 25px 10px 0px 10px;
   width: 250px;
   display: flex;
   flex-direction: column;
