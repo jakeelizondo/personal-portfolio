@@ -7,7 +7,11 @@ export default class ProjectLinks extends React.Component {
   static defaultProps = { links: [] };
   render() {
     return (
-      <div className="project-links">
+      <div
+        className={
+          this.props.styleClass ? this.props.styleClass : 'project-links'
+        }
+      >
         <SectionHeading
           heading={'Project Links'}
           styleClass={'project-links-heading'}

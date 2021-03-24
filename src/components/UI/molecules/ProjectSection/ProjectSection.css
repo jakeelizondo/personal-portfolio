@@ -1,0 +1,128 @@
+@media all and (max-width: 800px) {
+  .dark-back {
+    background-color: #d7e8f7;
+  }
+
+  .project-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .project-section-heading {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+
+  .project-section-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0px;
+  }
+
+  .project-section-icons:first-child h2 {
+    font-size: 25px;
+  }
+
+  .project-section-icons img {
+    max-width: 35px;
+    margin-right: 20px;
+  }
+
+  .project-section-content {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .project-section-content h2 {
+    font-size: 25px;
+  }
+
+  .project-section-screenshot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .project-section-screenshot img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .project-section-skills {
+    padding: 10px 0px;
+  }
+}
+
+@media all and (min-width: 800px) {
+  .dark-back {
+    background-color: #d7e8f7;
+  }
+  .project-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+  }
+
+  .project-section-heading {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+
+  .project-section-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0px;
+  }
+
+  .project-section-icons:first-child h2 {
+    font-size: 35px;
+  }
+
+  .project-section-icons img {
+    max-width: 50px;
+    margin-right: 20px;
+  }
+
+  .project-section-content {
+    max-width: 100%;
+    height: auto;
+    margin-right: 50px;
+  }
+
+  .project-section-content p {
+    width: 700px;
+  }
+
+  .project-section-content h2 {
+    font-size: 25px;
+  }
+
+  .project-section-screenshot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-section-screenshot img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .project-section-skills {
+    padding: 10px 0px;
+  }
+}

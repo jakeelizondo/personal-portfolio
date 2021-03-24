@@ -38,7 +38,11 @@ export default class ProjectSkills extends React.Component {
   render() {
     let icons = this.getSkillsIcons();
     return (
-      <div className="project-skills">
+      <div
+        className={
+          this.props.styleClass ? this.props.styleClass : 'project-skills'
+        }
+      >
         <SectionHeading
           heading={'Project Skills'}
           styleClass={'project-skills-heading'}
