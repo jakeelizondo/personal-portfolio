@@ -1,16 +1,15 @@
 import React from 'react';
 import './Homepage.css';
 import profPic from '../../assets/images/jake_elizondo_headshot.jpg';
-import ProjectBar from '../../components/UI/organisms/ProjectBar/ProjectBar';
 import ContactInfoBar from '../../components/UI/molecules/ContactInfoBar/ContactInfoBar';
 import ContactMeFormDark from '../../components/UI/organisms/ContactMeFormDark/ContactMeFormDark';
-import ProjectSection from '../../components/UI/molecules/ProjectSection/ProjectSection';
 import ProjectsPage from '../ProjectsPage/ProjectsPage';
 
 export default class Homepage extends React.Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }
+
   render() {
     return (
       <React.Fragment>
